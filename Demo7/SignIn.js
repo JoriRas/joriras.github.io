@@ -2,8 +2,10 @@ document.addEventListener("DOMContentLoaded",hasSignIn);
 // function to display name on "welcome" message
 function hasSignIn(){
     let signIn = 'yes';
-    if (signIn === 'yes') {
-        document.getElementById('hello_Darkness').textContent += localStorage.getItem("name");
+    let name = localStorage.getItem("name"); // If no name in locan storage will display nothing
+
+    if (signIn === 'yes' && name) {
+      document.getElementById('hello_Darkness').textContent += name;
     }
 }
 
