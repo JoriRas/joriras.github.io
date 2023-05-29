@@ -660,7 +660,7 @@ Banner Style
 }
 
 .main-banner .caption h6 {
-  font-size: 20px;
+  font-size: 22px;
   text-transform: uppercase;
   color: #fff;
   font-weight: 500;
@@ -958,7 +958,7 @@ Most Played Style
   background-color: #ee626b;
   color: #fff;
   border-radius: 20px;
-  font-size: 15px;
+  font-size: 17px;
   text-transform: uppercase;
   font-weight: 600;
   left: 50%;
@@ -1001,7 +1001,7 @@ Categories Style
 }
 
 .categories .item h4 {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 600;
   color: #fff;
   padding: 22px;
