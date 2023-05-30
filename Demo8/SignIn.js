@@ -19,6 +19,6 @@ function login(){
 // function for login out
 
 function logout() {
-    localStorage.setItem("name", document.getElementById ("name").value);
-    localStorage.setItem("logout", "yes")
+    localStorage.removeItem("name");
+    localStorage.removeItem("logout")
 }
