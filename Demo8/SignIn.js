@@ -8,7 +8,11 @@ function hasSignIn(){
         document.getElementById('hello_Darkness').textContent += name;
         document.getElementById("singIn_Form").style.display = "none"; // gets element then removes element visibillity if singIn = true
     }
+    else {
+        document.getElementById("singout").style.display = "none"; // gets element then removes element visibillity if singout = false
+    }
 }
+
 
 // fuction for signin in
 function login(){
