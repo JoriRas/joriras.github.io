@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/* main body properties */
+body {
+    font-family: 'Tsukimi rounded', 'sans-serif';
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* backround image properties */
+.bg{
+    background-image:url(img/686773.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:-30px;
+    left:-30px;
+    height:calc(100vh + 60px);
+    width:calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(20px);
+}
+
+/* loading text properties */
+.loadingtxt{
+    font-size: 60px;
+    color: aqua;
+}
